@@ -1,0 +1,199 @@
+/************* TAGS **************/
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+hr {
+  border: silver 6px;
+  border-style: dotted none none none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  color: #11999E;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 0 auto 0 auto;
+  padding-top: 150px;
+}
+
+h2 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #30E3CA;
+  transition: 0.3s;
+}
+a:hover{
+  color: #40514E;
+  opacity: 0.6;
+}
+
+p {
+  line-height: 2;
+}
+
+table {
+  color: #40514E;
+}
+/************* CLASSES **************/
+/* .headerband{
+  background-color: #E4F9F5;
+} */
+
+.topsec {
+  background-color: #E4F9F5;
+  position: relative;
+}
+.cloud{
+  width:100px;
+  transition: 0.3s;
+  position: absolute;
+}
+.bottomcloud{
+  left: 27%;
+  bottom: 360px;
+}
+.topcloud{
+  top: 40px;
+  right: 30%;
+}
+.cloud:hover{
+  width:120px;
+}
+
+.midsec{
+ margin: 100px 0;
+}
+.profile {
+  width: 50%;
+  margin: 50px auto 75px auto;
+}
+.profileimg{
+  width: 35%;
+  transition: 0.3s;
+}
+.profileimg:hover{
+  width: 40%;
+  opacity: 0.6;
+}
+.workrow{
+  text-align: left;
+  margin: 50px auto 75px auto;
+  width: 50%;
+}
+.iesegimg{
+  float: left;
+  margin-right: 30px;
+}
+.researchimg{
+  float: right;
+  margin-left: 30px;
+}
+.teachingimg{
+  float: left;
+  margin-right: 30px;
+}
+/* .kuleuvenimg{
+  float: right;
+  margin-left: 30px;
+} */
+.workimg{
+  width: 30%;
+}
+.iesegtext{
+  clear: right;
+}
+.researchtext{
+  clear: left;
+}
+.teachingtext{
+  clear: right;
+}
+
+.contactme{
+  width: 30%;
+  margin: 50px auto 75px auto;
+}
+.contacttext{
+  margin-bottom: 100px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottomsec{
+  color: #11999E;
+  height: 100px;
+  background-color: #66BFBF;
+  position: relative;
+}
+.socialicon{
+  width: 35px;
+}
+.footupdate{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  margin: 0 70px 0 0;
+  width: 30%;
+  text-align: right;
+}
+.footicon{
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  margin: 0;
+  text-align: center;
+}
+.footrights{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  margin: 0 0 0 70px;
+  width: 30%;
+  text-align: left;
+}
+
+/************* IDs **************/
